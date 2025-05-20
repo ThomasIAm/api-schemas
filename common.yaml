@@ -52,6 +52,10 @@ components:
                   description: Total results available without any search parameters.
                   type: number
                   example: 2000
+                total_pages:
+                  description: Total number of pages
+                  example: 100
+                  type: number
 
     messages:
       type: array
